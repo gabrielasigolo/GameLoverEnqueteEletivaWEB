@@ -1,3 +1,4 @@
+
 .container {
     background: linear-gradient(180deg, rgba(33,13,37,1) 0%, rgba(67,22,75,1) 29%, rgba(99,31,111,1) 100%);
     margin: auto;
@@ -115,15 +116,41 @@
     border-radius: 5px;
     color: white;
     margin-top: 20px;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 191px) {
-    *{
-        margin: 0;
-        padding: 0;
+@media (max-width: 813px) {
+    .container{
+        width: 90%;
+        height: 1510px;
     }
 
-    .container{
-        
+    #form-subtitle{
+        padding-right: 10px;
     }
+
+    #description {
+        width: 90%;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .box{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+
+    .form-container{
+        height: 1210px;
+    }
+
+    .input input{
+        width: 90%;
+    }
+
 }
