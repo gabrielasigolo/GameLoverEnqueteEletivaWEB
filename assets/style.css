@@ -122,15 +122,18 @@
 @media (max-width: 813px) {
     .container{
         width: 90%;
-        height: 1510px;
+        height: 1467px;
     }
 
     #form-subtitle{
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 19px;
     }
 
     #description {
-        width: 90%;
+        width: 98%;
+        font-size: 13px;
     }
 
     .flex-container{
@@ -143,6 +146,7 @@
         margin: auto;
         margin-bottom: 20px;
     }
+
 
 
     .form-container{
